@@ -4,7 +4,6 @@ import axios from "axios";
 
 function Apod() { 
     const [obj, setObj] = useState([]);
-
     useEffect(() => {
         axios.get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
         .then(response => {
@@ -18,9 +17,9 @@ function Apod() {
     return (
         <div>
             <h3>{obj.title}</h3>
-            <h5>{obj.date}</h5>
-            <p>{obj.explanation}</p>
-            <img src={obj.url} alt='Space image'/>        
+            <h5>{obj.date}</h5>            
+            <img src={obj.url} alt='Space image'/>
+            <p>{obj.explanation}</p>   
         </div>
     );
 }
