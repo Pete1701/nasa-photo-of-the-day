@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Card, CardImg, CardText, CardTitle, CardSubtitle } from "reactstrap";
 
+
 function Apod() { 
     const [obj, setObj] = useState([]);
     useEffect(() => {
@@ -16,12 +17,12 @@ function Apod() {
     }, []);
     return (
         <div>
-            <Card>
+            <div>
                 <CardTitle>{obj.title}</CardTitle>
                 <CardSubtitle>{obj.date}</CardSubtitle>            
                 <CardImg src={obj.url} alt='Space image'/>
                 <CardText>{obj.explanation}</CardText>
-            </Card>  
+            </div>  
         </div>
     );
 }
