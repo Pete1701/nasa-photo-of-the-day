@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-//import ApodCard from "./apodCard";
+import { Card, CardImg, CardText, CardTitle, CardSubtitle } from "reactstrap";
 
 function Apod() { 
     const [obj, setObj] = useState([]);
@@ -16,10 +16,12 @@ function Apod() {
     }, []);
     return (
         <div>
-            <h3>{obj.title}</h3>
-            <h5>{obj.date}</h5>            
-            <img src={obj.url} alt='Space image'/>
-            <p>{obj.explanation}</p>   
+            <Card>
+                <CardTitle>{obj.title}</CardTitle>
+                <CardSubtitle>{obj.date}</CardSubtitle>            
+                <CardImg src={obj.url} alt='Space image'/>
+                <CardText>{obj.explanation}</CardText>
+            </Card>  
         </div>
     );
 }
