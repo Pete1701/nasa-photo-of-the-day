@@ -1,0 +1,469 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200219.223354.46652.0.001.json",
+    "dumpEventTime": "2020-02-19T22:33:54Z",
+    "dumpEventTimeStamp": "1582148034426",
+    "processId": 46652,
+    "cwd": "H:\\lambda\\nasa-photo-of-the-day",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "H:\\Lambda\\nasa-photo-of-the-day\\node_modules\\react-scripts\\scripts\\start.js"
+    ],
+    "nodejsVersion": "v12.14.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 18860171,
+        "nice": 0,
+        "sys": 15554843,
+        "idle": 100434796,
+        "irq": 1465265
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 18619750,
+        "nice": 0,
+        "sys": 12065390,
+        "idle": 104164484,
+        "irq": 646015
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 20683562,
+        "nice": 0,
+        "sys": 11763593,
+        "idle": 102402406,
+        "irq": 213750
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 22291593,
+        "nice": 0,
+        "sys": 11653015,
+        "idle": 100905000,
+        "irq": 123640
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi 3",
+        "internal": false,
+        "mac": "ec:55:f9:68:a7:ae",
+        "address": "fd14:d169:be2b:9300:2863:f19e:bd82:5efb",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi 3",
+        "internal": false,
+        "mac": "ec:55:f9:68:a7:ae",
+        "address": "fd14:d169:be2b:9300:80bc:4410:2f55:b59b",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi 3",
+        "internal": false,
+        "mac": "ec:55:f9:68:a7:ae",
+        "address": "fe80::2863:f19e:bd82:5efb",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "Wi-Fi 3",
+        "internal": false,
+        "mac": "ec:55:f9:68:a7:ae",
+        "address": "192.168.8.118",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-SNM8VI4"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff77d5e1759",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77d5e5b7c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77d5e4b38",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77d6d433b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77ded8c5e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77dec0ca1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77dd8e56c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77dd96671",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77dd8bcd3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77dd8a4a4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77ddab775",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77db17a49",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77e30463d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77e2c2607",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff77e27f8da",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000020800dd7219",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 114495488,
+    "totalCommittedMemory": 114495488,
+    "usedMemory": 108021544,
+    "availableMemory": 2090369208,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047400,
+        "available": 88
+      },
+      "old_space": {
+        "memorySize": 68792320,
+        "committedMemory": 68792320,
+        "capacity": 68675472,
+        "used": 64085368,
+        "available": 4590104
+      },
+      "code_space": {
+        "memorySize": 1736704,
+        "committedMemory": 1736704,
+        "capacity": 1571488,
+        "used": 1410176,
+        "available": 161312
+      },
+      "map_space": {
+        "memorySize": 3674112,
+        "committedMemory": 3674112,
+        "capacity": 3668912,
+        "used": 2648080,
+        "available": 1020832
+      },
+      "large_object_space": {
+        "memorySize": 37785600,
+        "committedMemory": 37785600,
+        "capacity": 37700976,
+        "used": 37700976,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 1196032,
+        "committedMemory": 1196032,
+        "capacity": 1097248,
+        "used": 1097248,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 22.781,
+    "kernelCpuSeconds": 6.343,
+    "cpuConsumptionPercent": 0.982923,
+    "maxRss": 191877120,
+    "pageFaults": {
+      "IORequired": 223740,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 6071,
+      "writes": 40
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\",
+    "=H:": "H:\\Lambda\\nasa-photo-of-the-day",
+    "ACLOCAL_PATH": "/mingw64/share/aclocal:/usr/share/aclocal",
+    "ADSK_3DSMAX_x64_2017": "C:\\Program Files\\Autodesk\\3ds Max 2017\\",
+    "ADSK_3DSMAX_x64_2018": "C:\\Program Files\\Autodesk\\3ds Max 2018\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Pan\\AppData\\Roaming",
+    "BABEL_ENV": "development",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132241828061297389",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-SNM8VI4",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "/mingw64/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GPU_MAX_ALLOC_PERCENT": "70",
+    "GTK_BASEPATH": "C:\\Program Files (x86)\\GtkSharp\\2.12\\",
+    "HOME": "C:\\Users\\Pan",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Pan",
+    "HOSTNAME": "DESKTOP-SNM8VI4",
+    "INFOPATH": "/usr/local/info:/usr/share/info:/usr/info:/share/info",
+    "INIT_CWD": "H:\\lambda\\nasa-photo-of-the-day",
+    "LANG": "el_GR.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Pan\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-SNM8VI4",
+    "MANPATH": "/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "/mingw64",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "NODE_PATH": "",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"start\"],\"original\":[\"start\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.21.1 npm/? node/v12.14.1 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "start",
+    "npm_lifecycle_script": "react-scripts start",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_browserslist_development_0": "last 1 chrome version",
+    "npm_package_browserslist_development_1": "last 1 firefox version",
+    "npm_package_browserslist_development_2": "last 1 safari version",
+    "npm_package_browserslist_production_0": ">0.2%",
+    "npm_package_browserslist_production_1": "not dead",
+    "npm_package_browserslist_production_2": "not op_mini all",
+    "npm_package_dependencies_axios": "^0.19.2",
+    "npm_package_dependencies_react": "^16.8.6",
+    "npm_package_dependencies_react_dom": "^16.8.6",
+    "npm_package_dependencies_react_scripts": "3.0.1",
+    "npm_package_description": "This will be a two-module project. In it you will consume the NASA API to fetch the \"Astronomy Photo Of The Day\" or APOD. Once you fetch the data, you will build a few components that will render different pieces of data in your interface. After the second module (in the [DAY_TWO_README.md](DAY_TWO_README.md) file) you will re-style your app using one of the libraries you learn.",
+    "npm_package_eslintConfig_extends": "react-app",
+    "npm_package_name": "nasa-apod",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_build": "react-scripts build",
+    "npm_package_scripts_eject": "react-scripts eject",
+    "npm_package_scripts_start": "react-scripts start",
+    "npm_package_scripts_test": "react-scripts test",
+    "npm_package_version": "0.1.0",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OLDPWD": "/h/lambda",
+    "OneDrive": "C:\\Users\\Pan\\OneDrive",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Pan\\bin;C:\\Python27;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Common Files\\FX Client\\Plugins;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files (x86)\\AOMEI Backupper;C:\\Program Files\\Git\\cmd;C:\\Users\\Pan\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\Pan\\AppData\\Roaming\\npm;C:\\Users\\Pan\\AppData\\Local\\Yarn\\bin",
+    "ORIGINAL_TEMP": "/tmp",
+    "ORIGINAL_TMP": "/tmp",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\Pan\\AppData\\Local\\Temp\\yarn--1582145070670-0.8594853004923932;H:\\lambda\\nasa-photo-of-the-day\\node_modules\\.bin;C:\\Users\\Pan\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Users\\Pan\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Pan\\bin;C:\\Python27;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Common Files\\FX Client\\Plugins;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files (x86)\\AOMEI Backupper;C:\\Program Files\\Git\\cmd;C:\\Users\\Pan\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\Pan\\AppData\\Roaming\\npm;C:\\Users\\Pan\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 42 Stepping 7, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "2a07",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "/h/lambda/nasa-photo-of-the-day",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Pan\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Pan\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\Pan\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-SNM8VI4",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-SNM8VI4",
+    "USERNAME": "Pan",
+    "USERPROFILE": "C:\\Users\\Pan",
+    "VRAY30_RT_FOR_3DSMAX2017_MAIN_x64": "C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2017 for x64/bin",
+    "VRAY30_RT_FOR_3DSMAX2017_PLUGINS_x64": "C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2017 for x64/bin/plugins",
+    "VRAY_OSL_PATH_3DSMAX2017_x64": "C:\\Program Files\\Chaos Group\\V-Ray\\3dsmax 2017 for x64\\opensl",
+    "WINDIR": "C:\\WINDOWS",
+    "YARN_WRAP_OUTPUT": "false",
+    "_": "/usr/bin/winpty"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}
